@@ -1,0 +1,23 @@
+<main id="main-wrapper">
+    <section id="stream-wrapper">
+        <div id="welcome">
+            <h1>TwitchMonster</h1>
+            <p id="welcome-description">
+                TwitchMonster is an app designed to enhance the Twitch viewing experience. With TwitchMonster, you aren't limited to watching just one stream at a time. You can watch up to four! Simply enter the names of the channels you'd like to watch and click watch!
+            </p>
+            <form id="welcome-form" action="" method="POST" autocomplete="off">
+                <div class="input-wrapper">
+                    <input type="text" name="channel-0" id="channel-0" class="form-control channel-input" placeholder="Enter a channel name here" autofocus><span class="icon glyphicon"></span>
+                </div>
+                <div id="welcome-form-additional-inputs"></div>
+                <p id="error"></p>
+                <button type="button" id="add-stream" class="btn-primary btn">Add Stream</button>
+                <input type="submit" name="welcome-submit" id="welcome-submit" class="btn-primary btn" value="Watch">
+            </form>
+        </div>
+    </section>
+    <section id="chat-wrapper">
+        <ul class="nav nav-pills nav-justified" role="tablist"></ul>
+        <div class="tab-content"></div>
+    </section>
+</main>

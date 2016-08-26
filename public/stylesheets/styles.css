@@ -1,0 +1,145 @@
+html {
+  font-size: 16px;
+}
+body {
+  overflow: hidden;
+}
+#main-wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+#stream-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  float: left;
+  width: 80vw;
+  height: 100vh;
+  background-color: hsla(0, 0%, 0%, 1);
+}
+#chat-wrapper {
+  float: right;
+  width: 20vw;
+  height: 100vh;
+  background-color: hsla(0, 0%, 6%, 1);
+}
+#welcome {
+  width: 40vw;
+  color: white;
+}
+#welcome-description {
+  margin: 0 0 1.5em 0;
+}
+#welcome-form {
+  width: 100%;
+}
+#add-stream {
+  margin-right: 0.5em;
+}
+#stream-0 iframe, #stream-1 iframe, #stream-2 iframe, #stream-3 iframe {
+  display: block;
+}
+.half-width {
+  width: 50%;
+}
+.full-width: {
+  width: 100%;
+}
+.half-height {
+  height: 50%;
+}
+.full-height {
+  height: 100%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.remove-stream {
+  height: 34px;
+  top: -1px;
+  display: table-cell;
+  margin: 0 0 0 1em;
+}
+.btn {
+  outline: none;
+  border: none;
+  background-color: hsla(261, 43%, 45%, 1);
+}
+.btn:hover, .btn:focus {
+  background-color: hsla(261, 43%, 45%, 1) !important;
+}
+.btn:active {
+  background-color: hsla(261, 43%, 35%, 1) !important;
+}
+.channel-input {
+  display: inline;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+.added-input-row {
+  display: table;
+  width: 100%;
+}
+.added-input {
+  margin-bottom: 1em;
+}
+.added-button {
+  float: left;
+}
+.added-input-wrapper {
+  position: relative;
+  display: table-cell;
+  width: 100%;
+}
+.input-wrapper {
+  position: relative;
+  margin-bottom: 1em;
+}
+.icon {
+  position: absolute;
+  display: inline;
+  background-color: white;
+  border-radius: 0 4px 4px 0;
+  padding: 4px;
+  top: 2px;
+  right: 4px;
+  font-size: 1.5em;
+}
+.valid {
+  color: green;
+}
+.invalid {
+  color: red;
+}
+#error {
+  display:none;
+}
+.text-danger{
+  color: #d9534f;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.nav-tabs {
+  border-bottom: none;
+}
+.nav-pills>li>a{
+  color: #fff;
+}
+.nav-pills>li>a:hover {
+  text-decoration: none;
+  background-color: hsla(0, 0%, 6%, 1);
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color: #fff;
+  background-color: hsla(261, 43%, 45%, 1);
+}
+.nav-pills>li>a {
+  border-radius: 0px;
+}
